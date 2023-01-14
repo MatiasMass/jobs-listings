@@ -10,6 +10,3 @@ You can visit this project at: <a href="https://matiasmass.github.io/jobs-listin
 <p align="center">
 <a href="https://postimg.cc/sBH39R0f" target="_blank"><img src="https://i.postimg.cc/k4qDCJQS/2.png" alt="2"/></a><br/><br/>
 </p>
-
-
- width="1581" height="799"
