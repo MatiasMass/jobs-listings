@@ -3,12 +3,12 @@ You can visit this project at: <a href="https://matiasmass.github.io/jobs-listin
 
 ## Desktop version:
 <p align="center">
-<a href="https://postimg.cc/14HVwxR2" target="_blank"><img src="https://i.postimg.cc/KvX7XF6G/1.png" width="1300" height="1649" alt="1"/></a><br/><br/>
+<a href="https://postimg.cc/SXxyMKdt" target="_blank"><img src="https://i.postimg.cc/CKjd9BqY/1.png" alt="1"/></a><br/><br/>
 </p>
 
 ## Mobile version:
 <p align="center">
-<a href="https://postimg.cc/nChj1dCz" target="_blank"><img src="https://i.postimg.cc/J4bNMv8b/2.png" alt="2"  width="1774" height="3742"/></a><br/><br/>
+<a href="https://postimg.cc/sBH39R0f" target="_blank"><img src="https://i.postimg.cc/k4qDCJQS/2.png" alt="2"/></a><br/><br/>
 </p>
 
 
