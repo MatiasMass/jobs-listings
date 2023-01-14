@@ -3,7 +3,7 @@ You can visit this project at: <a href="https://matiasmass.github.io/jobs-listin
 
 ## Desktop version:
 <p align="center">
-<a href="https://postimg.cc/14HVwxR2" target="_blank"><img src="https://i.postimg.cc/KvX7XF6G/1.png" width="1843" height="2239" alt="1"/></a><br/><br/>
+<a href="https://postimg.cc/14HVwxR2" target="_blank"><img src="https://i.postimg.cc/KvX7XF6G/1.png" width="1300" height="1649" alt="1"/></a><br/><br/>
 </p>
 
 ## Mobile version:
