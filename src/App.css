@@ -1,0 +1,95 @@
+:root{
+  --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+  --Light-Grayish-Cyan: hsl(180, 52%, 96%);
+  --Light-Grayish-Cyan: hsl(180, 31%, 95%);
+  --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+  --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+}
+
+
+.App header{
+  height: 150px;
+  background: url('./assets/bg-header-desktop.svg'), var(--Desaturated-Dark-Cyan);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.App main{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.App .filter{
+  background-color: red;
+  display: flex;
+  width: 85%;
+  height: 60px;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% - 45px);
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  padding: 1rem;
+}
+
+.App .filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .filter  .filter__item__input{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.App .filter  .filter__item__input:focus{
+  outline: none;
+}
+
+.App .filter .filter__item__clear{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-weight: 700;
+  border-bottom: 1px solid transparent;
+  color: var(--Desaturated-Dark-Cyan);
+}
+
+.App .filter .filter__item__clear:hover{
+  border-bottom: 1px solid var(--Desaturated-Dark-Cyan);
+}
+
+@media screen and (max-width: 768px){
+  .App .filter{
+    width: 72%;
+  }
+  
+  .App main{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .App main{
+    width: 100%;
+  }
+}
