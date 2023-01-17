@@ -69,7 +69,7 @@
 }
 
 
-.card .middle .left:hover{
+.card .middle .left .level:hover, .card .middle .left .role:hover{
     color: var(--Desaturated-Dark-Cyan);
     cursor: pointer;
 }

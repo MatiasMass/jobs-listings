@@ -76,6 +76,28 @@
   border-bottom: 1px solid var(--Desaturated-Dark-Cyan);
 }
 
+.item-search{
+  margin-right: 0.5rem;
+  background-color: var(--Light-Grayish-Cyan);
+  padding: 0 0 0 0.5rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.item-search .filter__item__delete{
+  color: #fff;
+  border: none;
+  background-color: var(--Desaturated-Dark-Cyan);
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+
+.item-search .filter__item__delete:hover{
+  background-color: var(--Very-Dark-Grayish-Cyan);
+}
+
 @media screen and (max-width: 768px){
   .App .filter{
     width: 72%;

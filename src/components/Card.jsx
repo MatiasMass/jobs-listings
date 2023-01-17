@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-function Card({job}) {
+function Card({job, onClick}) {
   return (
     <div className='card'>
         <div className="logo">
@@ -10,24 +10,24 @@ function Card({job}) {
         </div>
         <div className="content">
             <div className="top">
-                <h2>{job.company}</h2>
+                <h2 onClick={onClick}>{job.company}</h2>
                 {job.new && <span className="new">New!</span>}
                 {job.featured && <span className="featured">Featured</span>}
             </div>
             <div className="middle">
                 <div className="left">
-                    <span className='role'>{job.role}</span>
-                    <span className='level'>{job.level}</span>
+                    <span className='role' onClick={onClick}>{job.role}</span>
+                    <span className='level' onClick={onClick}>{job.level}</span>
                 </div>
                 <div className="right">
                     {job.languages.map(language => {
                         return(
-                            <span>{language}</span>
+                            <span onClick={onClick}>{language}</span>
                         )
                     })}
                     {job.tools.map(tool => {
                         return(
-                            <span>{tool}</span>
+                            <span onClick={onClick}>{tool}</span>
                         )
                     })}
                 </div>
